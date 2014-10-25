@@ -1,0 +1,37 @@
+{
+	"id":"mechanical_engineering",
+	"governingAptitude":"technology",
+	"effectGroups":[
+		{
+			"effects":[
+				{
+					"type":"CHARACTER_STATS",
+					"script":"data.characters.skills.scripts.MechanicalEngineeringEffect1",
+				},
+				{
+					"type":"HULLMOD_UNLOCK",
+					"governingSkill":"mechanical_engineering",
+					"hullmods":{
+								"turretgyros":1,
+								"auxiliarythrusters":2,
+								"extendedshieldemitter":4,
+								"frontemitter":5,
+								"augmentedengines":7,
+								"adaptiveshields":10,
+					           },
+				},				
+			]
+		},
+		{
+			"name":"高效维护",
+			"requiredSkillLevel":5,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{			
+					"type":"ALL_SHIPS_IN_FLEET",
+					"script":"data.characters.skills.scripts.MechanicalEngineeringPerk1",
+				},
+			]
+		},
+	],	
+}

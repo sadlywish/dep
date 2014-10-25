@@ -1,0 +1,25 @@
+{
+	"id":"command_experience",
+	"governingAptitude":"leadership",
+	"effectGroups":[
+		{
+			"effects":[
+				{
+					"type":"CHARACTER_STATS",
+					"script":"data.characters.skills.scripts.CommandExperienceEffect1",
+				},
+			]
+		},
+		{
+			"name":"就地取材",
+			"requiredSkillLevel":10,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{
+					"type":"ALL_SHIPS_IN_FLEET",
+					"script":"data.characters.skills.scripts.CommandExperiencePerk2",
+				}
+			]
+		},
+	],
+}

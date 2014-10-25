@@ -1,0 +1,25 @@
+{
+	"id":"advanced_tactics",
+	"governingAptitude":"leadership",
+	"effectGroups":[
+		{
+			"effects":[
+				{
+					"type":"CHARACTER_STATS",
+					"script":"data.characters.skills.scripts.AdvancedTacticsEffect1",
+				},
+			]
+		},
+		{
+			"name":"特种部队",
+			"requiredSkillLevel":5,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{			
+					"type":"CHARACTER_STATS",
+					"script":"data.characters.skills.scripts.AdvancedTacticsPerk1",
+				},
+			]
+		},
+	],
+}

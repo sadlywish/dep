@@ -1,0 +1,25 @@
+{
+	"id":"coordinated_maneuvers",
+	"governingAptitude":"leadership",
+	"effectGroups":[
+		{
+			"effects":[
+				{
+					"type":"CHARACTER_STATS",
+					"script":"data.characters.skills.scripts.CoordinatedManeuversEffect1",
+				},
+			]
+		},
+		{
+			"name":"复杂阵型调度",
+			"requiredSkillLevel":5,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{			
+					"type":"CHARACTER_STATS",
+					"script":"data.characters.skills.scripts.CoordinatedManeuversPerk1",
+				},
+			]
+		},
+	],
+}

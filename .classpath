@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/SS0541a_CN1.0_Knight"/>
+	<classpathentry kind="lib" path="D:/Starsector 0.6.2a/starsector-core/commons-compiler.jar"/>
+	<classpathentry kind="lib" path="D:/Starsector 0.6.2a/starsector-core/commons-compiler-jdk.jar"/>
+	<classpathentry kind="lib" path="D:/Starsector 0.6.2a/starsector-core/fs.common_obf.jar"/>
+	<classpathentry kind="lib" path="D:/Starsector 0.6.2a/starsector-core/fs.sound_obf.jar"/>
+	<classpathentry kind="lib" path="D:/Starsector 0.6.2a/starsector-core/janino.jar"/>
+	<classpathentry kind="lib" path="D:/Starsector 0.6.2a/starsector-core/jinput.jar"/>
+	<classpathentry kind="lib" path="D:/Starsector 0.6.2a/starsector-core/jogg-0.0.7.jar"/>
+	<classpathentry kind="lib" path="D:/Starsector 0.6.2a/starsector-core/jorbis-0.0.15.jar"/>
+	<classpathentry kind="lib" path="D:/Starsector 0.6.2a/starsector-core/json.jar"/>
+	<classpathentry kind="lib" path="D:/Starsector 0.6.2a/starsector-core/log4j-1.2.9.jar"/>
+	<classpathentry kind="lib" path="D:/Starsector 0.6.2a/starsector-core/lwjgl.jar"/>
+	<classpathentry kind="lib" path="D:/Starsector 0.6.2a/starsector-core/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="D:/Starsector 0.6.2a/starsector-core/starfarer.api.jar"/>
+	<classpathentry kind="lib" path="D:/Starsector 0.6.2a/starsector-core/starfarer_obf.jar"/>
+	<classpathentry kind="lib" path="D:/Starsector 0.6.2a/starsector-core/xstream-1.4.2.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
